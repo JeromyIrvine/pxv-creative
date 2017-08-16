@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pxvblocks",
+  "name": "Pixelvania Creative Blocks Pack",
+  "description": "A blocks pack for Minecraft creative mode.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["PsychoticOtter"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,28 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "${workspaceRoot}\\gradlew.bat build",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "taskName": "runClient",
+            "command": "${workspaceRoot}\\gradlew.bat runClient",
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "taskName": "runServer",
+            "command": "${workspaceRoot}\\gradlew.bat runServer",
+            "type": "shell",
+            "problemMatcher": []
+        }
+    ]
+}

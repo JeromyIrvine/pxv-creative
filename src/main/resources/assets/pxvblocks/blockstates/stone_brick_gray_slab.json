@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "pxvblocks:stone_brick_gray_half_slab" },
+        "half=top": { "model": "pxvblocks:stone_brick_gray_upper_slab" }
+    }
+}

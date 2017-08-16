@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "pxvblocks:blocks/door_glass_birch_lower",
+        "top": "pxvblocks:blocks/door_glass_birch_upper"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "pxvblocks:<BLOCKNAME>_half_slab" },
+        "half=top": { "model": "pxvblocks:<BLOCKNAME>_upper_slab" }
+    }
+}

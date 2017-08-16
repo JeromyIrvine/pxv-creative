@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "pxvblocks:blocks/<BLOCKNAME>",
+        "top": "pxvblocks:blocks/<BLOCKNAME>",
+        "side": "pxvblocks:blocks/<BLOCKNAME>"
+    }
+}

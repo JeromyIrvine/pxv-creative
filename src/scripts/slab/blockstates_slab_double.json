@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "pxvblocks:<BLOCKNAME>" },
+        "all":    { "model": "pxvblocks:<BLOCKNAME>" }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom_rh",
+    "textures": {
+        "bottom": "pxvblocks:blocks/<BLOCKNAME>_door_lower",
+        "top": "pxvblocks:blocks/<BLOCKNAME>_door_upper"
+    }
+}
