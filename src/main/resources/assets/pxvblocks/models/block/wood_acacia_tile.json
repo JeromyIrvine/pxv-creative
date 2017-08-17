@@ -1,0 +1,7 @@
+{
+    "parent": "pxvblocks:block/tile",
+    "textures": {
+        "particle": "pxvblocks:blocks/wood_acacia",
+        "all": "pxvblocks:blocks/wood_acacia"
+    }
+}

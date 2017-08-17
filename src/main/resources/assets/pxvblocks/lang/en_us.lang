@@ -18,6 +18,13 @@ tile.sandstone_brick_slab.name=Sandstone Brick Slab
 tile.sandstone_brick_stairs.name=Sandstone Brick Stairs
 tile.sandstone_brick_tile.name=Sandstone Brick Tile
 
+tile.wood_birch_tile.name=Birch Wood Tile
+tile.wood_oak_tile.name=Oak Wood Tile
+tile.wood_spruce_tile.name=Spruce Wood Tile
+tile.wood_darkoak_tile.name=Dark Oak Wood Tile
+tile.wood_acacia_tile.name=Acacia Wood Tile
+tile.wood_jungle_tile.name=Jungle Wood Tile
+
 tile.trapdoor_glass.name=Glass Trap Door
 
 item.door_glass.name=Glass Door

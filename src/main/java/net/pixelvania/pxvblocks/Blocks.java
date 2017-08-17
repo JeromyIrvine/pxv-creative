@@ -44,6 +44,13 @@ public class Blocks {
 		registerStairs(sandstoneBrick, "sandstone_brick_stairs");
 		registerTile("sandstone_brick_tile", Material.ROCK);
 
+		registerTile("wood_birch_tile", Material.WOOD);
+		registerTile("wood_oak_tile", Material.WOOD);
+		registerTile("wood_spruce_tile", Material.WOOD);
+		registerTile("wood_darkoak_tile", Material.WOOD);
+		registerTile("wood_acacia_tile", Material.WOOD);
+		registerTile("wood_jungle_tile", Material.WOOD);
+
 		//------------------------------------------------------------------------------------------
 		// Doors
 
