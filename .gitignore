@@ -2,6 +2,7 @@
 /build/
 /bin/
 /run/
+Corel Auto-Preserve/
 
 # Ignore Gradle GUI config
 gradle-app.setting
