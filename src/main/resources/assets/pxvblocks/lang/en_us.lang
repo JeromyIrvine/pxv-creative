@@ -5,9 +5,14 @@ itemGroup.pxvTilesTab=Pixelvania Tiles
 itemGroup.pxvDoorsTab=Pixelvania Doors
 
 tile.stone_brick_gray.name=Gray Stone Brick
-tile.stone_brick_gray_stairs.name=Gray Stone Brick Stairs
 tile.stone_brick_gray_slab.name=Gray Stone Brick Slab
+tile.stone_brick_gray_stairs.name=Gray Stone Brick Stairs
 tile.stone_brick_gray_tile.name=Gray Stone Brick Tile
+
+tile.sandstone_brick.name=Sandstone Brick
+tile.sandstone_brick_slab.name=Sandstone Brick Slab
+tile.sandstone_brick_stairs.name=Sandstone Brick Stairs
+tile.sandstone_brick_tile.name=Sandstone Brick Tile
 
 tile.trapdoor_glass.name=Glass Trap Door
 

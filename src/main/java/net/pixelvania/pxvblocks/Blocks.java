@@ -34,6 +34,11 @@ public class Blocks {
 		Block stoneBrickGrayStairs = registerStairs(stoneBrickGray, "stone_brick_gray_stairs");
 		Block stoneBrickGrayTile = registerTile("stone_brick_gray_tile", Material.ROCK);
 
+		Block sandstoneBrick = registerBlock("sandstone_brick", Material.ROCK);
+		registerSlab("sandstone_brick_slab", Material.ROCK);
+		registerStairs(sandstoneBrick, "sandstone_brick_stairs");
+		registerTile("sandstone_brick_tile", Material.ROCK);
+
 		//------------------------------------------------------------------------------------------
 		// Doors
 
