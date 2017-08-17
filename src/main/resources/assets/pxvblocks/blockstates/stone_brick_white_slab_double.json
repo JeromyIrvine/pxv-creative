@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "pxvblocks:stone_brick_white" },
+        "all":    { "model": "pxvblocks:stone_brick_white" }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "pxvblocks:blocks/stone_brick_white",
+        "top": "pxvblocks:blocks/stone_brick_white",
+        "side": "pxvblocks:blocks/stone_brick_white"
+    }
+}

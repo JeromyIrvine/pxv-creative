@@ -8,6 +8,10 @@ tile.stone_brick_gray.name=Gray Stone Brick
 tile.stone_brick_gray_slab.name=Gray Stone Brick Slab
 tile.stone_brick_gray_stairs.name=Gray Stone Brick Stairs
 tile.stone_brick_gray_tile.name=Gray Stone Brick Tile
+tile.stone_brick_white.name=White Stone Brick
+tile.stone_brick_white_slab.name=White Stone Brick Slab
+tile.stone_brick_white_stairs.name=White Stone Brick Stairs
+tile.stone_brick_white_tile.name=White Stone Brick Tile
 
 tile.sandstone_brick.name=Sandstone Brick
 tile.sandstone_brick_slab.name=Sandstone Brick Slab
