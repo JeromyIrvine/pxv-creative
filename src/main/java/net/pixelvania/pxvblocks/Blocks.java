@@ -12,120 +12,145 @@ import net.minecraftforge.registries.IForgeRegistry;
 import net.pixelvania.pxvblocks.core.*;
 
 public class Blocks {
-	static final IForgeRegistry<Block> blockRegistry = GameRegistry.findRegistry(Block.class);
-	static final IForgeRegistry<Item> itemRegistry = GameRegistry.findRegistry(Item.class);
+    static final IForgeRegistry<Block> blockRegistry = GameRegistry.findRegistry(Block.class);
+    static final IForgeRegistry<Item> itemRegistry = GameRegistry.findRegistry(Item.class);
 
-	public static Item TAB_ICON_BLOCKS;
-	public static Item TAB_ICON_SLABS;
-	public static Item TAB_ICON_STAIRS;
-	public static Item TAB_ICON_TILES;
-	public static Item TAB_ICON_DOORS;
+    public static Item TAB_ICON_BLOCKS;
+    public static Item TAB_ICON_SLABS;
+    public static Item TAB_ICON_STAIRS;
+    public static Item TAB_ICON_TILES;
+    public static Item TAB_ICON_DOORS;
 
-	private static Side currentSide;
+    private static Side currentSide;
 
-	public static void register(Side side) {
-		currentSide = side; // Set this so that we have access to it during item registration.
+    public static void register(Side side) {
+        currentSide = side; // Set this so that we have access to it during item registration.
 
-		//------------------------------------------------------------------------------------------
-		// Blocks
+        //------------------------------------------------------------------------------------------
+        // Blocks
 
-		Block stoneBrickGray = registerBlock("stone_brick_gray", Material.ROCK);
-		Block stoneBrickGraySlab = registerSlab("stone_brick_gray_slab", Material.ROCK);
-		Block stoneBrickGrayStairs = registerStairs(stoneBrickGray, "stone_brick_gray_stairs");
-		Block stoneBrickGrayTile = registerTile("stone_brick_gray_tile", Material.ROCK);
+        Block sandstoneBrick = registerBlock("sandstone_brick", Material.ROCK);
+        Block sandstoneBrickSlab = registerSlab(sandstoneBrick);
+        Block sandstoneBrickStairs = registerStairs(sandstoneBrick);
+        Block sandstoneBrickTile = registerTile(sandstoneBrick);
 
 		Block stoneBrickWhite = registerBlock("stone_brick_white", Material.ROCK);
-		registerSlab("stone_brick_white_slab", Material.ROCK);
-		registerStairs(stoneBrickWhite, "stone_brick_white_stairs");
-		registerTile("stone_brick_white_tile", Material.ROCK);
-
-		Block sandstoneBrick = registerBlock("sandstone_brick", Material.ROCK);
-		registerSlab("sandstone_brick_slab", Material.ROCK);
-		registerStairs(sandstoneBrick, "sandstone_brick_stairs");
-		registerTile("sandstone_brick_tile", Material.ROCK);
-
-		registerTile("wood_birch_tile", Material.WOOD);
-		registerTile("wood_oak_tile", Material.WOOD);
-		registerTile("wood_spruce_tile", Material.WOOD);
-		registerTile("wood_darkoak_tile", Material.WOOD);
-		registerTile("wood_acacia_tile", Material.WOOD);
-		registerTile("wood_jungle_tile", Material.WOOD);
-
-		//------------------------------------------------------------------------------------------
-		// Doors
-
-		Block glassDoor = registerDoor("door_glass", Material.GLASS);
-		registerDoor("door_glass_birch", Material.GLASS);
-
-		registerTrapDoor("trapdoor_glass", Material.GLASS);
+		registerSlab(stoneBrickWhite);
+        registerStairs(stoneBrickWhite);
+		registerTile(stoneBrickWhite);
 		
-		//------------------------------------------------------------------------------------------
-		// Set up our Tab Icons
-		TAB_ICON_BLOCKS = Item.getItemFromBlock(stoneBrickGray);
-		TAB_ICON_SLABS = Item.getItemFromBlock(stoneBrickGraySlab);
-		TAB_ICON_STAIRS = Item.getItemFromBlock(stoneBrickGrayStairs);
-		TAB_ICON_TILES = Item.getItemFromBlock(stoneBrickGrayTile);
-		TAB_ICON_DOORS = glassDoor.getItemDropped(null, null, 0);
+        Block stoneBrickGray = registerBlock("stone_brick_gray", Material.ROCK);
+        registerSlab(stoneBrickGray);
+        registerStairs(stoneBrickGray);
+        registerTile(stoneBrickGray);
+
+        registerTile("wood_birch_tile", Material.WOOD);
+        registerTile("wood_oak_tile", Material.WOOD);
+        registerTile("wood_spruce_tile", Material.WOOD);
+        registerTile("wood_darkoak_tile", Material.WOOD);
+        registerTile("wood_acacia_tile", Material.WOOD);
+        registerTile("wood_jungle_tile", Material.WOOD);
+
+        //------------------------------------------------------------------------------------------
+        // Doors
+
+        Block glassDoor = registerDoor("door_glass", Material.GLASS);
+        registerDoor("door_glass_birch", Material.GLASS);
+
+        registerTrapDoor("trapdoor_glass", Material.GLASS);
+        
+        //------------------------------------------------------------------------------------------
+        // Set up our Tab Icons
+        TAB_ICON_BLOCKS = Item.getItemFromBlock(sandstoneBrick);
+        TAB_ICON_SLABS = Item.getItemFromBlock(sandstoneBrickSlab);
+        TAB_ICON_STAIRS = Item.getItemFromBlock(sandstoneBrickStairs);
+        TAB_ICON_TILES = Item.getItemFromBlock(sandstoneBrickTile);
+        TAB_ICON_DOORS = glassDoor.getItemDropped(null, null, 0);
+    }
+
+    private static Block registerBlock(String name, Material material) {
+        return registerBlock(new PxvBlock(name, material, Tabs.BLOCKS));
+    }
+
+    private static Block registerDoor(String name, Material material) {
+        PxvDoor door = new PxvDoor(name, material, Tabs.DOORS);
+        Item doorItem = new PxvDoorItem(door, name, Tabs.DOORS);
+        door.setItemDropped(doorItem);
+
+        register(door);
+        register(doorItem);
+
+        return door;
+    }
+
+    private static Block registerSlab(String name, Material material) {
+        Block slab = new PxvSlab(name, material, Tabs.SLABS);
+        Block doubleSlab = new PxvDoubleSlab((PxvSlab) slab, name + "_double", Tabs.SLABS);
+        Item slabItem = new PxvSlabItem(name, slab, (PxvSlab) slab, (PxvSlab) doubleSlab, Tabs.SLABS);
+
+        register(slab);
+        register(doubleSlab);
+        register(slabItem);
+
+        return slab;
+    }
+
+    /**
+     * Registers a slab based on the block passed in using standard naming conventions.
+     */
+    private static Block registerSlab(Block block)
+    {
+		PxvBlock b = (PxvBlock)block;
+        return registerSlab(b.getBaseName() + "_slab", b.getMaterial());
+    }
+
+    private static Block registerStairs(Block block, String name) {
+        return registerBlock(new PxvStairs(block, name, Tabs.STAIRS));
+	}
+	
+	/**
+	 * Registers stairs based on the block passed in using standard naming conventions.
+	 */
+	private static Block registerStairs(Block block) {
+		PxvBlock b = (PxvBlock)block;
+		return registerStairs(block, b.getBaseName() + "_stairs");
 	}
 
-	private static Block registerBlock(String name, Material material) {
-		return registerBlock(new PxvBlock(name, material, Tabs.BLOCKS));
+    private static Block registerTile(String name, Material material) {
+        return registerBlock(new PxvTile(name, material, Tabs.TILES));
+	}
+	
+	/**
+	 * Registers a tile based on the block passed in using standard naming conventions.
+	 */
+	private static Block registerTile(Block block) {
+		PxvBlock b = (PxvBlock)block;
+		return registerTile(b.getBaseName() + "_tile", b.getMaterial());
 	}
 
-	private static Block registerDoor(String name, Material material) {
-		PxvDoor door = new PxvDoor(name, material, Tabs.DOORS);
-		Item doorItem = new PxvDoorItem(door, name, Tabs.DOORS);
-		door.setItemDropped(doorItem);
+    private static Block registerTrapDoor(String name, Material material) {
+        return registerBlock(new PxvTrapDoor(name, material, Tabs.DOORS));
+    }
 
-		register(door);
-		register(doorItem);
+    private static Block registerBlock(Block block) {
+        ItemBlock itemBlock = new ItemBlock(block);
+        itemBlock.setRegistryName(block.getRegistryName());
 
-		return door;
-	}
+        register(block);
+        register(itemBlock);
 
-	private static Block registerSlab(String name, Material material) {
-		Block slab = new PxvSlab(name, material, Tabs.SLABS);
-		Block doubleSlab = new PxvDoubleSlab((PxvSlab) slab, name + "_double", Tabs.SLABS);
-		Item slabItem = new PxvSlabItem(name, slab, (PxvSlab) slab, (PxvSlab) doubleSlab, Tabs.SLABS);
+        return block;
+    }
 
-		register(slab);
-		register(doubleSlab);
-		register(slabItem);
+    private static void register(Block block) {
+        blockRegistry.register(block);
+    }
 
-		return slab;
-	}
-
-	private static Block registerStairs(Block block, String name) {
-		return registerBlock(new PxvStairs(block, name, Tabs.STAIRS));
-	}
-
-	private static Block registerTile(String name, Material material) {
-		return registerBlock(new PxvTile(name, material, Tabs.TILES));
-	}
-
-	private static Block registerTrapDoor(String name, Material material) {
-		return registerBlock(new PxvTrapDoor(name, material, Tabs.DOORS));
-	}
-
-	private static Block registerBlock(Block block) {
-		ItemBlock itemBlock = new ItemBlock(block);
-		itemBlock.setRegistryName(block.getRegistryName());
-
-		register(block);
-		register(itemBlock);
-
-		return block;
-	}
-
-	private static void register(Block block) {
-		blockRegistry.register(block);
-	}
-
-	private static void register(Item item) {
-		itemRegistry.register(item);
-		if (currentSide == Side.CLIENT) {
-			// If we're on the client, set the model resource location.
-			ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
-		}
-	} 
+    private static void register(Item item) {
+        itemRegistry.register(item);
+        if (currentSide == Side.CLIENT) {
+            // If we're on the client, set the model resource location.
+            ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+        }
+    } 
 }
