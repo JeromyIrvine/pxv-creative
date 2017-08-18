@@ -34,6 +34,7 @@ public class Blocks {
         Block sandstoneBrickStairs = registerStairs(sandstoneBrick);
         Block sandstoneBrickTile = registerTile(sandstoneBrick);
 
+		// Stone bricks
 		Block stoneBrickWhite = registerBlock("stone_brick_white", Material.ROCK);
 		registerSlab(stoneBrickWhite);
         registerStairs(stoneBrickWhite);
@@ -42,8 +43,27 @@ public class Blocks {
         Block stoneBrickGray = registerBlock("stone_brick_gray", Material.ROCK);
         registerSlab(stoneBrickGray);
         registerStairs(stoneBrickGray);
-        registerTile(stoneBrickGray);
+		registerTile(stoneBrickGray);
+		
+		// Concrete slabs
+		registerSlab("concrete_white_slab", Material.ROCK);
+		registerSlab("concrete_orange_slab", Material.ROCK);
+		registerSlab("concrete_magenta_slab", Material.ROCK);
+		registerSlab("concrete_lightblue_slab", Material.ROCK);
+		registerSlab("concrete_yellow_slab", Material.ROCK);
+		registerSlab("concrete_lime_slab", Material.ROCK);
+		registerSlab("concrete_pink_slab", Material.ROCK);
+		registerSlab("concrete_gray_slab", Material.ROCK);
+		registerSlab("concrete_lightgray_slab", Material.ROCK);
+		registerSlab("concrete_cyan_slab", Material.ROCK);
+		registerSlab("concrete_purple_slab", Material.ROCK);
+		registerSlab("concrete_blue_slab", Material.ROCK);
+		registerSlab("concrete_brown_slab", Material.ROCK);
+		registerSlab("concrete_green_slab", Material.ROCK);
+		registerSlab("concrete_red_slab", Material.ROCK);
+		registerSlab("concrete_black_slab", Material.ROCK);
 
+		// Wood tiles
         registerTile("wood_birch_tile", Material.WOOD);
         registerTile("wood_oak_tile", Material.WOOD);
         registerTile("wood_spruce_tile", Material.WOOD);
@@ -57,6 +77,9 @@ public class Blocks {
         Block glassDoor = registerDoor("door_glass", Material.GLASS);
         registerDoor("door_glass_birch", Material.GLASS);
 
+		//------------------------------------------------------------------------------------------
+		// Trap Doors
+		
         registerTrapDoor("trapdoor_glass", Material.GLASS);
         
         //------------------------------------------------------------------------------------------

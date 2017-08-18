@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "pxvblocks:concrete_lightgray_half_slab" },
+        "half=top": { "model": "pxvblocks:concrete_lightgray_upper_slab" }
+    }
+}

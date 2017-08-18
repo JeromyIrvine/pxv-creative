@@ -4,19 +4,36 @@ itemGroup.pxvStairsTab=Pixelvania Stairs
 itemGroup.pxvTilesTab=Pixelvania Tiles
 itemGroup.pxvDoorsTab=Pixelvania Doors
 
-tile.stone_brick_gray.name=Gray Stone Brick
-tile.stone_brick_gray_slab.name=Gray Stone Brick Slab
-tile.stone_brick_gray_stairs.name=Gray Stone Brick Stairs
-tile.stone_brick_gray_tile.name=Gray Stone Brick Tile
-tile.stone_brick_white.name=White Stone Brick
-tile.stone_brick_white_slab.name=White Stone Brick Slab
-tile.stone_brick_white_stairs.name=White Stone Brick Stairs
-tile.stone_brick_white_tile.name=White Stone Brick Tile
-
 tile.sandstone_brick.name=Sandstone Brick
 tile.sandstone_brick_slab.name=Sandstone Brick Slab
 tile.sandstone_brick_stairs.name=Sandstone Brick Stairs
 tile.sandstone_brick_tile.name=Sandstone Brick Tile
+
+tile.stone_brick_white.name=White Stone Brick
+tile.stone_brick_white_slab.name=White Stone Brick Slab
+tile.stone_brick_white_stairs.name=White Stone Brick Stairs
+tile.stone_brick_white_tile.name=White Stone Brick Tile
+tile.stone_brick_gray.name=Gray Stone Brick
+tile.stone_brick_gray_slab.name=Gray Stone Brick Slab
+tile.stone_brick_gray_stairs.name=Gray Stone Brick Stairs
+tile.stone_brick_gray_tile.name=Gray Stone Brick Tile
+
+tile.concrete_white_slab.name=White Concrete Slab
+tile.concrete_orange_slab.name=Orange Concrete Slab
+tile.concrete_magenta_slab.name=Magenta Concrete Slab
+tile.concrete_lightblue_slab.name=Light Blue Concrete Slab
+tile.concrete_yellow_slab.name=Yellow Concrete Slab
+tile.concrete_lime_slab.name=Lime Concrete Slab
+tile.concrete_pink_slab.name=Pink Concrete Slab
+tile.concrete_gray_slab.name=Gray Concrete Slab
+tile.concrete_lightgray_slab.name=Light Gray Concrete Slab
+tile.concrete_cyan_slab.name=Cyan Concrete Slab
+tile.concrete_purple_slab.name=Purple Concrete Slab
+tile.concrete_blue_slab.name=Blue Concrete Slab
+tile.concrete_brown_slab.name=Brown Concrete Slab
+tile.concrete_green_slab.name=Green Concrete Slab
+tile.concrete_red_slab.name=Red Concrete Slab
+tile.concrete_black_slab.name=Black Concrete Slab
 
 tile.wood_birch_tile.name=Birch Wood Tile
 tile.wood_oak_tile.name=Oak Wood Tile
