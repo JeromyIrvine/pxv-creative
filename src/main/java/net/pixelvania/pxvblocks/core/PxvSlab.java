@@ -14,7 +14,6 @@ public class PxvSlab extends BlockSlab {
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(tab);
-        this.useNeighborBrightness = true;
     }
 
     @Override

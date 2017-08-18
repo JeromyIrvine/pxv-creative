@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "pxvblocks:concrete_lightgray" },
-        "all":    { "model": "pxvblocks:concrete_lightgray" }
+        "normal": { "model": "silver_concrete" },
+        "all":    { "model": "silver_concrete" }
     }
 }

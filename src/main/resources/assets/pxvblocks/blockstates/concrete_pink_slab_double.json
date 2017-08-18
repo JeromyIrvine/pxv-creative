@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "pxvblocks:concrete_pink" },
-        "all":    { "model": "pxvblocks:concrete_pink" }
+        "normal": { "model": "pink_concrete" },
+        "all":    { "model": "pink_concrete" }
     }
 }

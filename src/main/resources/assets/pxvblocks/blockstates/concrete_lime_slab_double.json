@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "pxvblocks:concrete_lime" },
-        "all":    { "model": "pxvblocks:concrete_lime" }
+        "normal": { "model": "lime_concrete" },
+        "all":    { "model": "lime_concrete" }
     }
 }
