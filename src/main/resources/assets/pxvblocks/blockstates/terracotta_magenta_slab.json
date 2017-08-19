@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "pxvblocks:terracotta_magenta_half_slab" },
+        "half=top": { "model": "pxvblocks:terracotta_magenta_upper_slab" }
+    }
+}

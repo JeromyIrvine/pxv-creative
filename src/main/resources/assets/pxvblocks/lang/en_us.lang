@@ -35,6 +35,23 @@ tile.concrete_green_slab.name=Green Concrete Slab
 tile.concrete_red_slab.name=Red Concrete Slab
 tile.concrete_black_slab.name=Black Concrete Slab
 
+tile.terracotta_white_slab.name=White Terracotta Slab
+tile.terracotta_orange_slab.name=Orange Terracotta Slab
+tile.terracotta_magenta_slab.name=Magenta Terracotta Slab
+tile.terracotta_lightblue_slab.name=Light Blue Terracotta Slab
+tile.terracotta_yellow_slab.name=Yellow Terracotta Slab
+tile.terracotta_lime_slab.name=Lime Terracotta Slab
+tile.terracotta_pink_slab.name=Pink Terracotta Slab
+tile.terracotta_gray_slab.name=Gray Terracotta Slab
+tile.terracotta_lightgray_slab.name=Light Gray Terracotta Slab
+tile.terracotta_cyan_slab.name=Cyan Terracotta Slab
+tile.terracotta_purple_slab.name=Purple Terracotta Slab
+tile.terracotta_blue_slab.name=Blue Terracotta Slab
+tile.terracotta_brown_slab.name=Brown Terracotta Slab
+tile.terracotta_green_slab.name=Green Terracotta Slab
+tile.terracotta_red_slab.name=Red Terracotta Slab
+tile.terracotta_black_slab.name=Black Terracotta Slab
+
 tile.prismarine_slab.name=Prismarine Slab
 tile.prismarine_stairs.name=Prismarine Stairs
 tile.prismarine_tile.name=Prismarine Tile

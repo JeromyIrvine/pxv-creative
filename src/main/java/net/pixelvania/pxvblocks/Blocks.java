@@ -63,6 +63,24 @@ public class Blocks {
 		registerSlab("concrete_red_slab", Material.ROCK);
         registerSlab("concrete_black_slab", Material.ROCK);
         
+		// Terracotta slabs
+		registerSlab("terracotta_white_slab", Material.ROCK);
+		registerSlab("terracotta_orange_slab", Material.ROCK);
+		registerSlab("terracotta_magenta_slab", Material.ROCK);
+		registerSlab("terracotta_lightblue_slab", Material.ROCK);
+		registerSlab("terracotta_yellow_slab", Material.ROCK);
+		registerSlab("terracotta_lime_slab", Material.ROCK);
+		registerSlab("terracotta_pink_slab", Material.ROCK);
+		registerSlab("terracotta_gray_slab", Material.ROCK);
+		registerSlab("terracotta_lightgray_slab", Material.ROCK);
+		registerSlab("terracotta_cyan_slab", Material.ROCK);
+		registerSlab("terracotta_purple_slab", Material.ROCK);
+		registerSlab("terracotta_blue_slab", Material.ROCK);
+		registerSlab("terracotta_brown_slab", Material.ROCK);
+		registerSlab("terracotta_green_slab", Material.ROCK);
+		registerSlab("terracotta_red_slab", Material.ROCK);
+        registerSlab("terracotta_black_slab", Material.ROCK);
+        
         // Prismarine variants
         registerSlab("prismarine_slab", Material.ROCK);
         registerStairs(net.minecraft.init.Blocks.PRISMARINE, "prismarine_stairs");

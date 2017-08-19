@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "hardened_clay_blue" },
+        "all":    { "model": "hardened_clay_blue" }
+    }
+}
