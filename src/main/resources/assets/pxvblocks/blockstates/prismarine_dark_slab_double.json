@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "prismarine_dark" },
+        "all":    { "model": "prismarine_dark" }
+    }
+}

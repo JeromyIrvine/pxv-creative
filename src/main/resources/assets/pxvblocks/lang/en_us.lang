@@ -35,6 +35,16 @@ tile.concrete_green_slab.name=Green Concrete Slab
 tile.concrete_red_slab.name=Red Concrete Slab
 tile.concrete_black_slab.name=Black Concrete Slab
 
+tile.prismarine_slab.name=Prismarine Slab
+tile.prismarine_stairs.name=Prismarine Stairs
+tile.prismarine_tile.name=Prismarine Tile
+tile.prismarine_brick_slab.name=Prismarine Brick Slab
+tile.prismarine_brick_stairs.name=Prismarine Brick Stairs
+tile.prismarine_brick_tile.name=Prismarine Brick Tile
+tile.prismarine_dark_slab.name=Dark Prismarine Slab
+tile.prismarine_dark_stairs.name=Dark Prismarine Stairs
+tile.prismarine_dark_tile.name=Dark Prismarine Tile
+
 tile.wood_birch_tile.name=Birch Wood Tile
 tile.wood_oak_tile.name=Oak Wood Tile
 tile.wood_spruce_tile.name=Spruce Wood Tile

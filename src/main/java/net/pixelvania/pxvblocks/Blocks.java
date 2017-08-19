@@ -61,7 +61,18 @@ public class Blocks {
 		registerSlab("concrete_brown_slab", Material.ROCK);
 		registerSlab("concrete_green_slab", Material.ROCK);
 		registerSlab("concrete_red_slab", Material.ROCK);
-		registerSlab("concrete_black_slab", Material.ROCK);
+        registerSlab("concrete_black_slab", Material.ROCK);
+        
+        // Prismarine variants
+        registerSlab("prismarine_slab", Material.ROCK);
+        registerStairs(net.minecraft.init.Blocks.PRISMARINE, "prismarine_stairs");
+        registerTile("prismarine_tile", Material.ROCK);
+        registerSlab("prismarine_brick_slab", Material.ROCK);
+        registerStairs(net.minecraft.init.Blocks.PRISMARINE, "prismarine_brick_stairs");
+        registerTile("prismarine_brick_tile", Material.ROCK);
+        registerSlab("prismarine_dark_slab", Material.ROCK);
+        registerStairs(net.minecraft.init.Blocks.PRISMARINE, "prismarine_dark_stairs");
+        registerTile("prismarine_dark_tile", Material.ROCK);
 
 		// Wood tiles
         registerTile("wood_birch_tile", Material.WOOD);

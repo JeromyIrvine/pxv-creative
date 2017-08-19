@@ -1,0 +1,7 @@
+{
+    "parent": "pxvblocks:block/tile",
+    "textures": {
+        "particle": "blocks/prismarine_rough",
+        "all": "blocks/prismarine_rough"
+    }
+}

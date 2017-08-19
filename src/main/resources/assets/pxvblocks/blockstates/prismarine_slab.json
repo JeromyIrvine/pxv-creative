@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "pxvblocks:prismarine_half_slab" },
+        "half=top": { "model": "pxvblocks:prismarine_upper_slab" }
+    }
+}
