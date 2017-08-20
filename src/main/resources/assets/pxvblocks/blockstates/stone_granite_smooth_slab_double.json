@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "granite_smooth" },
+        "all":    { "model": "granite_smooth" }
+    }
+}

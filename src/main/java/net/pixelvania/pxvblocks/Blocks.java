@@ -100,7 +100,14 @@ public class Blocks {
         registerTile("wood_acacia_tile", Material.WOOD);
         registerTile("wood_jungle_tile", Material.WOOD);
 
-        // Stone tiles
+        // Stone slabs and tiles
+        registerSlab("stone_andesite_slab", Material.ROCK);
+        registerSlab("stone_andesite_smooth_slab", Material.ROCK);
+        registerSlab("stone_diorite_slab", Material.ROCK);
+        registerSlab("stone_diorite_smooth_slab", Material.ROCK);
+        registerSlab("stone_granite_slab", Material.ROCK);
+        registerSlab("stone_granite_smooth_slab", Material.ROCK);
+
         registerTile("stone_tile", Material.ROCK);
         registerTile("stone_andesite_smooth_tile", Material.ROCK);
         registerTile("stone_diorite_smooth_tile", Material.ROCK);

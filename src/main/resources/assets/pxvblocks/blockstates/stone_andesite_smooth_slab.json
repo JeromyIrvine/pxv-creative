@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "pxvblocks:stone_andesite_smooth_half_slab" },
+        "half=top": { "model": "pxvblocks:stone_andesite_smooth_upper_slab" }
+    }
+}

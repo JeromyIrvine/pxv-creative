@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "andesite_smooth" },
+        "all":    { "model": "andesite_smooth" }
+    }
+}

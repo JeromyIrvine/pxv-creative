@@ -69,6 +69,12 @@ tile.wood_darkoak_tile.name=Dark Oak Wood Tile
 tile.wood_acacia_tile.name=Acacia Wood Tile
 tile.wood_jungle_tile.name=Jungle Wood Tile
 
+tile.stone_andesite_slab.name=Andesite Slab
+tile.stone_andesite_smooth_slab.name=Polished Andesite Slab
+tile.stone_diorite_slab.name=Diorite Slab
+tile.stone_diorite_smooth_slab.name=Polished Diorite Slab
+tile.stone_granite_slab.name=Granite Slab
+tile.stone_granite_smooth_slab.name=Polished Granite Slab
 tile.stone_tile.name=Stone Tile
 tile.stone_andesite_smooth_tile.name=Polished Andesite Tile
 tile.stone_diorite_smooth_tile.name=Polished Diorite Tile
