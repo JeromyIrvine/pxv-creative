@@ -125,6 +125,7 @@ public class Blocks {
 
         Block glassDoor = registerDoor("door_glass", Material.GLASS);
         registerDoor("door_glass_birch", Material.GLASS);
+        registerDoor("wood_panel_birch_door", Material.WOOD);
 
 		//------------------------------------------------------------------------------------------
 		// Trap Doors

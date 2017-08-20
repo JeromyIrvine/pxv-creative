@@ -91,4 +91,6 @@ tile.trapdoor_glass.name=Glass Trap Door
 
 item.door_glass.name=Glass Door
 item.door_glass_birch.name=Birch Glass Door
+item.wood_panel_birch_door.name=Birch Panel Door
+
 
