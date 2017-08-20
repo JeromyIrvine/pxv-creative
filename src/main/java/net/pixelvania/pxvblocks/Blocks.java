@@ -100,6 +100,19 @@ public class Blocks {
         registerTile("wood_acacia_tile", Material.WOOD);
         registerTile("wood_jungle_tile", Material.WOOD);
 
+        // Stone tiles
+        registerTile("stone_tile", Material.ROCK);
+        registerTile("stone_andesite_smooth_tile", Material.ROCK);
+        registerTile("stone_diorite_smooth_tile", Material.ROCK);
+        registerTile("stone_granite_smooth_tile", Material.ROCK);
+        registerTile("sandstone_tile", Material.ROCK);
+        registerTile("sandstone_red_tile", Material.ROCK);
+        registerTile("quartz_tile", Material.ROCK);
+        registerTile("cobblestone_tile", Material.ROCK);
+        registerTile("brick_tile", Material.ROCK);
+        registerTile("stonebrick_tile", Material.ROCK);
+        registerTile("netherbrick_tile", Material.ROCK);
+        
         //------------------------------------------------------------------------------------------
         // Doors
 

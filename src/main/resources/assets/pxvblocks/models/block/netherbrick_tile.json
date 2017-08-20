@@ -1,0 +1,7 @@
+{
+    "parent": "pxvblocks:block/tile",
+    "textures": {
+        "particle": "blocks/nether_brick",
+        "all": "blocks/nether_brick"
+    }
+}

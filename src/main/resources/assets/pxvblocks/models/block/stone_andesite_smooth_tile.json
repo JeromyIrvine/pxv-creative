@@ -1,0 +1,7 @@
+{
+    "parent": "pxvblocks:block/tile",
+    "textures": {
+        "particle": "blocks/stone_andesite_smooth",
+        "all": "blocks/stone_andesite_smooth"
+    }
+}

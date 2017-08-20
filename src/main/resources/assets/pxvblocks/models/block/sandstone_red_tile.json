@@ -1,0 +1,7 @@
+{
+    "parent": "pxvblocks:block/tile",
+    "textures": {
+        "particle": "blocks/red_sandstone_top",
+        "all": "blocks/red_sandstone_top"
+    }
+}
