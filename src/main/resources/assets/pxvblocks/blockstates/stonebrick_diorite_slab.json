@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "pxvblocks:stonebrick_diorite_half_slab" },
+        "half=top": { "model": "pxvblocks:stonebrick_diorite_upper_slab" }
+    }
+}

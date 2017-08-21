@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "pxvblocks:blocks/stonebrick_granite",
+        "top": "pxvblocks:blocks/stonebrick_granite",
+        "side": "pxvblocks:blocks/stonebrick_granite"
+    }
+}

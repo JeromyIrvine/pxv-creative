@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "pxvblocks:blocks/stonebrick_andesite",
+        "top": "pxvblocks:blocks/stonebrick_andesite",
+        "side": "pxvblocks:blocks/stonebrick_andesite"
+    }
+}

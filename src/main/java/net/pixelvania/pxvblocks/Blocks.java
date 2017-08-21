@@ -43,7 +43,22 @@ public class Blocks {
         Block stoneBrickGray = registerBlock("stone_brick_gray", Material.ROCK);
         registerSlab(stoneBrickGray);
         registerStairs(stoneBrickGray);
-		registerTile(stoneBrickGray);
+        registerTile(stoneBrickGray);
+        
+        Block andesiteStoneBrick = registerBlock("stonebrick_andesite", Material.ROCK);
+        registerSlab(andesiteStoneBrick);
+        registerStairs(andesiteStoneBrick);
+        registerTile(andesiteStoneBrick);
+        
+        Block dioriteStoneBrick = registerBlock("stonebrick_diorite", Material.ROCK);
+        registerSlab(dioriteStoneBrick);
+        registerStairs(dioriteStoneBrick);
+        registerTile(dioriteStoneBrick);
+
+        Block graniteStoneBrick = registerBlock("stonebrick_granite", Material.ROCK);
+        registerSlab(graniteStoneBrick);
+        registerStairs(graniteStoneBrick);
+        registerTile(graniteStoneBrick);
 		
 		// Concrete slabs
 		registerSlab("concrete_white_slab", Material.ROCK);

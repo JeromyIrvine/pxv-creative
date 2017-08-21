@@ -1,0 +1,7 @@
+{
+    "parent": "pxvblocks:block/tile",
+    "textures": {
+        "particle": "pxvblocks:blocks/stonebrick_diorite",
+        "all": "pxvblocks:blocks/stonebrick_diorite"
+    }
+}

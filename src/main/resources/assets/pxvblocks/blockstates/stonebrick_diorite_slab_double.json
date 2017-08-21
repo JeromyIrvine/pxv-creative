@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "pxvblocks:stonebrick_diorite" },
+        "all":    { "model": "pxvblocks:stonebrick_diorite" }
+    }
+}
