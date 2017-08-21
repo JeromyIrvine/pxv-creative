@@ -8,6 +8,8 @@ tile.sandstone_brick.name=Sandstone Brick
 tile.sandstone_brick_slab.name=Sandstone Brick Slab
 tile.sandstone_brick_stairs.name=Sandstone Brick Stairs
 tile.sandstone_brick_tile.name=Sandstone Brick Tile
+tile.sandstone_smooth_slab.name=Smooth Sandstone Slab
+tile.sandstone_smooth_stairs.name=Smooth Sandstone Stairs
 
 tile.stone_brick_white.name=White Stone Brick
 tile.stone_brick_white_slab.name=White Stone Brick Slab

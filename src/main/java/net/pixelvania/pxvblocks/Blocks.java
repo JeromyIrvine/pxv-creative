@@ -34,6 +34,9 @@ public class Blocks {
         Block sandstoneBrickStairs = registerStairs(sandstoneBrick);
         Block sandstoneBrickTile = registerTile(sandstoneBrick);
 
+        registerSlab("sandstone_smooth_slab", Material.ROCK);
+        registerStairs(net.minecraft.init.Blocks.SANDSTONE, "sandstone_smooth_stairs");
+
 		// Stone bricks
 		Block stoneBrickWhite = registerBlock("stone_brick_white", Material.ROCK);
 		registerSlab(stoneBrickWhite);
@@ -49,7 +52,7 @@ public class Blocks {
         registerSlab(andesiteStoneBrick);
         registerStairs(andesiteStoneBrick);
         registerTile(andesiteStoneBrick);
-        
+
         Block dioriteStoneBrick = registerBlock("stonebrick_diorite", Material.ROCK);
         registerSlab(dioriteStoneBrick);
         registerStairs(dioriteStoneBrick);
