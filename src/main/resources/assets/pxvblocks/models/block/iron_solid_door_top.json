@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top",
+    "textures": {
+        "bottom": "pxvblocks:blocks/iron_solid_door_lower",
+        "top": "pxvblocks:blocks/iron_solid_door_upper"
+    }
+}
