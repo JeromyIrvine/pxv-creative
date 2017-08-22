@@ -6,7 +6,7 @@ Permission is granted to copy, modify, use, or compile this software, either in 
 
 * You may not sell the software. You may not earn money by hosting or distributing this software.
 
-* Any modification or derivative of this software must be made publicly available and remain under this license.
+* Any modification or derivative of this software must be made publicly available, open-source, and remain under this license.
 
 * The above copyright notice and this permission notice shall be included in all copies of the software.
 
