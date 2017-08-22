@@ -34,8 +34,10 @@ public class Blocks {
         Block sandstoneBrickStairs = registerStairs(sandstoneBrick);
         Block sandstoneBrickTile = registerTile(sandstoneBrick);
 
-        registerSlab("sandstone_smooth_slab", Material.ROCK);
-        registerStairs(net.minecraft.init.Blocks.SANDSTONE, "sandstone_smooth_stairs");
+        Block sandstoneSmooth = registerBlock("sandstone_smooth", Material.ROCK);
+        registerSlab(sandstoneSmooth);
+        registerStairs(sandstoneSmooth);
+        registerTile(sandstoneSmooth);
 
 		// Stone bricks
 		Block stoneBrickWhite = registerBlock("stone_brick_white", Material.ROCK);
