@@ -147,7 +147,10 @@ public class Blocks {
         registerDoor("door_glass_birch", Material.GLASS);
         registerDoor("wood_panel_birch_door", Material.WOOD);
         registerDoor("iron_solid_door", Material.IRON);
-
+        registerDoor("metal_glass_black_door", Material.GLASS);
+        registerDoor("metal_glass_gray_door", Material.GLASS);
+        registerDoor("metal_glass_lightgray_door", Material.GLASS);
+        
 		//------------------------------------------------------------------------------------------
 		// Trap Doors
 		

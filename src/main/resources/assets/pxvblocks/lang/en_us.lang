@@ -109,3 +109,6 @@ item.door_glass.name=Glass Door
 item.door_glass_birch.name=Birch Glass Door
 item.wood_panel_birch_door.name=Birch Panel Door
 item.iron_solid_door.name=Solid Iron Door
+item.metal_glass_black_door.name=Black Metal Glass Door
+item.metal_glass_gray_door.name=Gray Metal Glass Door
+item.metal_glass_lightgray_door.name=Light Gray Metal Glass Door

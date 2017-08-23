@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "pxvblocks:blocks/metal_glass_lightgray_door_lower",
+        "top": "pxvblocks:blocks/metal_glass_lightgray_door_upper"
+    }
+}
