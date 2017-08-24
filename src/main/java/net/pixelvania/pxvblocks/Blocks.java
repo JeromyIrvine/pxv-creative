@@ -100,6 +100,24 @@ public class Blocks {
 		registerSlab("terracotta_green_slab", Material.ROCK);
 		registerSlab("terracotta_red_slab", Material.ROCK);
         registerSlab("terracotta_black_slab", Material.ROCK);
+
+        // Wool slabs
+        registerSlab("wool_white_slab", Material.CARPET);
+        registerSlab("wool_orange_slab", Material.CARPET);
+        registerSlab("wool_magenta_slab", Material.CARPET);
+        registerSlab("wool_lightblue_slab", Material.CARPET);
+        registerSlab("wool_yellow_slab", Material.CARPET);
+        registerSlab("wool_lime_slab", Material.CARPET);
+        registerSlab("wool_pink_slab", Material.CARPET);
+        registerSlab("wool_gray_slab", Material.CARPET);
+        registerSlab("wool_lightgray_slab", Material.CARPET);
+        registerSlab("wool_cyan_slab", Material.CARPET);
+        registerSlab("wool_purple_slab", Material.CARPET);
+        registerSlab("wool_blue_slab", Material.CARPET);
+        registerSlab("wool_brown_slab", Material.CARPET);
+        registerSlab("wool_green_slab", Material.CARPET);
+        registerSlab("wool_red_slab", Material.CARPET);
+        registerSlab("wool_black_slab", Material.CARPET);
         
         // Prismarine variants
         registerSlab("prismarine_slab", Material.ROCK);
@@ -249,5 +267,5 @@ public class Blocks {
             // If we're on the client, set the model resource location.
             ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
         }
-    } 
+    }
 }

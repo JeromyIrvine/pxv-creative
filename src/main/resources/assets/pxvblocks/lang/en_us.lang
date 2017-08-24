@@ -68,6 +68,23 @@ tile.terracotta_green_slab.name=Green Terracotta Slab
 tile.terracotta_red_slab.name=Red Terracotta Slab
 tile.terracotta_black_slab.name=Black Terracotta Slab
 
+tile.wool_white_slab.name=White Wool Slab
+tile.wool_orange_slab.name=Orange Wool Slab
+tile.wool_magenta_slab.name=Magenta Wool Slab
+tile.wool_lightblue_slab.name=Light Blue Wool Slab
+tile.wool_yellow_slab.name=Yellow Wool Slab
+tile.wool_lime_slab.name=Lime Wool Slab
+tile.wool_pink_slab.name=Pink Wool Slab
+tile.wool_gray_slab.name=Gray Wool Slab
+tile.wool_lightgray_slab.name=Light Gray Wool Slab
+tile.wool_cyan_slab.name=Cyan Wool Slab
+tile.wool_purple_slab.name=Purple Wool Slab
+tile.wool_blue_slab.name=Blue Wool Slab
+tile.wool_brown_slab.name=Brown Wool Slab
+tile.wool_green_slab.name=Green Wool Slab
+tile.wool_red_slab.name=Red Wool Slab
+tile.wool_black_slab.name=Black Wool Slab
+
 tile.prismarine_slab.name=Prismarine Slab
 tile.prismarine_stairs.name=Prismarine Stairs
 tile.prismarine_tile.name=Prismarine Tile

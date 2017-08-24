@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "pxvblocks:wool_cyan_half_slab" },
+        "half=top": { "model": "pxvblocks:wool_cyan_upper_slab" }
+    }
+}

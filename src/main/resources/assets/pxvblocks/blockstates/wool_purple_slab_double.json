@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "purple_wool" },
+        "all":    { "model": "purple_wool" }
+    }
+}
